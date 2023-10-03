@@ -13,7 +13,7 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan proyek Laravel y
 Buka terminal Anda dan jalankan perintah berikut untuk clone repositori proyek Laravel dari GitHub:
 
 ```bash
-git clone https://github.com/nama-akun/contoh-repo-laravel.git` 
+git clone https://github.com/juanakbar/rentalCar_jasamedika_technicalTest.git /rental
 ```
 
 
@@ -23,7 +23,7 @@ Pindah ke direktori proyek yang baru saja Anda clone:
 
 bash
 
-`cd contoh-repo-laravel` 
+`cd rental` 
 
 ## Langkah 3: Instal Dependensi PHP
 
@@ -43,6 +43,15 @@ bash
 
 Kemudian, buka file `.env` dan konfigurasikan pengaturan database Anda.
 
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=rental
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
 ## Langkah 5: Generate Key Aplikasi
 
 Jalankan perintah berikut untuk menghasilkan kunci aplikasi Laravel:
@@ -57,7 +66,7 @@ Jalankan migrasi dan seeder untuk membuat tabel-tabel yang diperlukan dan mengis
 
 bash
 
-`php artisan migrate --seed` 
+`php artisan migrate:fresh --seed` 
 
 ## Langkah 7: Jalankan Server Lokal
 
