@@ -62,11 +62,11 @@ bash
 
 ## Langkah 6: Migrasi dan Seeder Database
 
-Jalankan migrasi dan seeder untuk membuat tabel-tabel yang diperlukan dan mengisi data awal (jika ada):
+Jalankan migrasi dan seeder untuk membuat tabel-tabel yang diperlukan dan mengisi data awal:
 
 bash
 
-`php artisan migrate:fresh --seed` 
+`php artisan migrate --seed` 
 
 ## Langkah 7: Jalankan Server Lokal
 
