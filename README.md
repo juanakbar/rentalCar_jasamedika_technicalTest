@@ -21,7 +21,7 @@ git clone https://github.com/juanakbar/rentalCar_jasamedika_technicalTest.git /r
 
 Pindah ke direktori proyek yang baru saja Anda clone:
 
-bash
+
 
 `cd rental` 
 
@@ -29,7 +29,7 @@ bash
 
 Jalankan perintah Composer untuk menginstal semua dependensi PHP yang diperlukan oleh proyek:
 
-bash
+
 
 `composer install` 
 
@@ -37,7 +37,7 @@ bash
 
 Salin file `.env.example` menjadi `.env`:
 
-bash
+
 
 `cp .env.example .env` 
 
@@ -56,7 +56,6 @@ DB_PASSWORD=root
 
 Jalankan perintah berikut untuk menghasilkan kunci aplikasi Laravel:
 
-bash
 
 `php artisan key:generate` 
 
@@ -64,7 +63,7 @@ bash
 
 Jalankan migrasi dan seeder untuk membuat tabel-tabel yang diperlukan dan mengisi data awal:
 
-bash
+
 
 `php artisan migrate --seed` 
 
@@ -72,7 +71,6 @@ bash
 
 Untuk menjalankan server pengembangan Laravel, gunakan perintah:
 
-bash
 
 `php artisan serve` 
 
