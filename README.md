@@ -77,3 +77,10 @@ bash
 `php artisan serve` 
 
 Server akan berjalan pada alamat `http://localhost:8000`. Buka browser Anda dan akses URL tersebut.
+
+Anda bisa login sebagai admin menggunakan
+
+```
+email = admin@rental.com
+password = password
+```
